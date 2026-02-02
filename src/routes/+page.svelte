@@ -120,7 +120,7 @@
 
     <!-- Right Visual (Advanced Masked Image) -->
     <div
-      class="lg:col-span-5 relative min-h-[600px] lg:min-h-auto flex items-center justify-center p-8 lg:p-12 bg-parchment dark:bg-ocean transition-colors duration-300"
+      class="lg:col-span-5 relative min-h-[600px] lg:min-h-auto flex items-center justify-center p-8 lg:p-12 transition-colors duration-300"
     >
       <div class="relative w-full max-w-md aspect-[3/4] group">
         <!-- Animated Glow Behind -->
