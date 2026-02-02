@@ -4,9 +4,20 @@ on:
   push:
     branches-ignore:
       - master
+    paths:
+      - 'src/**'
+      - '*.config.*'
+      - 'package.json'
+      - 'bun.lockb'
   pull_request:
     branches:
       - master
+    paths:
+      - 'src/**'
+      - '*.config.*'
+      - 'package.json'
+      - 'bun.lockb'
+  workflow_dispatch:
 
 jobs:
   build:
