@@ -11,7 +11,7 @@
     class="absolute top-0 right-0 w-1/3 h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5 pointer-events-none"
   ></div>
 
-  <div class="flex flex-col md:flex-row gap-16">
+  <div class="flex p-20 flex-col md:flex-row gap-16">
     <!-- Left Column: Headers -->
     <div class="md:w-1/3">
       <div

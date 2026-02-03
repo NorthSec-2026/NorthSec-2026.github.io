@@ -306,7 +306,7 @@
   ></div>
 
   <div
-    class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start"
+    class="relative z-10 p-20 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start"
   >
     <!-- Left Side: Text Briefing -->
     <div class="lg:col-span-5 flex flex-col justify-center h-full">
@@ -548,7 +548,7 @@
 <!-- GRID CONTENT LAYOUT -->
 <div
   id="intel"
-  class="w-full max-w-[1400px] border-x border-ocean/10 dark:border-gold/10 grid grid-cols-1 lg:grid-cols-3"
+  class="w-full max-w-[1400px] p-6 border-x border-ocean/10 dark:border-gold/10 grid grid-cols-1 lg:grid-cols-3"
 >
   <!-- Cell 1: Intro Text -->
   <div
@@ -651,7 +651,7 @@
 <!-- LORE SECTION -->
 <div
   id="lore"
-  class="w-full max-w-[1400px] border-x border-b border-ocean/10 dark:border-gold/10 p-8 md:p-16 bg-parchment-paper dark:bg-ocean-dark relative transition-colors duration-300"
+  class="w-full max-w-[1400px] p-20 border-x border-b border-ocean/10 dark:border-gold/10 p-8 md:p-16 bg-parchment-paper dark:bg-ocean-dark relative transition-colors duration-300"
 >
   <div
     class="absolute inset-0 bg-grid-slate opacity-50 pointer-events-none"
