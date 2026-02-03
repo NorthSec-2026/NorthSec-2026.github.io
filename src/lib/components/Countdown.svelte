@@ -4,7 +4,7 @@
   let timeLeft = $state({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   onMount(() => {
-    const targetDate = new Date('2026-03-05T00:00:00');
+    const targetDate = new Date("2026-03-05T00:00:00");
 
     const updateTime = () => {
       const now = new Date();
