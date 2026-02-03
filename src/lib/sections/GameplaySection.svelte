@@ -4,7 +4,7 @@
 
 <section
   id="gameplay"
-  class="w-full max-w-[1400px] border-x border-b border-ocean/10 dark:border-gold/10 bg-parchment-paper dark:bg-ocean-dark py-20 px-8 md:px-16 relative overflow-hidden transition-colors duration-300"
+  class="w-full pt-16 max-w-[1400px] border-x border-b border-ocean/10 dark:border-gold/10 bg-parchment-paper dark:bg-ocean-dark py-20 px-8 md:px-16 relative overflow-hidden transition-colors duration-300"
 >
   <!-- Background Tech Patterns -->
   <div

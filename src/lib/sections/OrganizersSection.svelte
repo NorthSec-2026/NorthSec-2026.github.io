@@ -6,7 +6,7 @@
   id="team"
   class="w-full max-w-[1400px] p-10 border-x border-b border-ocean/10 dark:border-gold/10 bg-parchment dark:bg-ocean-dark relative transition-colors duration-300"
 >
-  <div class="grid grid-cols-1 md:grid-cols-2">
+  <div class="grid pt-20 grid-cols-1 md:grid-cols-2">
     <!-- Left: Organization Info -->
     <div
       class="p-12 md:p-20 border-b md:border-b-0 md:border-r border-ocean/10 dark:border-gold/10 flex flex-col justify-center"

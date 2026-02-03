@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { Menu, X, Sun, Moon, Terminal, Shield } from "lucide-svelte";
+  import favicon from "$lib/assets/favicon.png";
 
   let { isDark, toggleTheme }: { isDark: boolean; toggleTheme: () => void } =
     $props();
@@ -49,19 +50,13 @@
       class="flex items-center gap-4 group cursor-pointer"
       onclick={scrollToTop}
     >
-      <div class="relative w-10 h-10 flex items-center justify-center">
-        <!-- Rotating bg element -->
-        <div
-          class="absolute inset-0 bg-teal dark:bg-gold opacity-10 group-hover:rotate-90 transition-transform duration-700 ease-out"
-          style="clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)"
-        ></div>
-        <!-- Static border -->
-        <div
-          class="absolute inset-0 border border-ocean/30 dark:border-gold/30"
-          style="clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)"
-        ></div>
-        <Shield
-          class="w-5 h-5 text-ocean dark:text-parchment transition-transform group-hover:scale-110"
+      <div
+        class="relative w-16 h-16 flex items-center justify-center overflow-visible"
+      >
+        <img
+          class="w-16 h-16 object-contain transition-transform duration-300 group-hover:scale-110"
+          src={favicon}
+          alt="NorthSec Logo"
         />
       </div>
       <div class="flex flex-col">
