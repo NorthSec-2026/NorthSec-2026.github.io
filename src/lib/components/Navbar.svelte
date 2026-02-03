@@ -214,8 +214,8 @@
       >MENU_OVERLAY // ACTIVE</span
     >
     <button
-      onclick={() => (isOpen = false)}
-      class="p-2 text-ocean dark:text-gold hover:rotate-90 transition-transform duration-300 rounded-full border border-ocean/10 dark:border-gold/10"
+      onclick={() => (isOpen = !isOpen)}
+      class="p-2 z-20 text-ocean dark:text-gold hover:rotate-90 transition-transform duration-300 rounded-full border border-ocean/10 dark:border-gold/10"
     >
       <X class="w-8 h-8" />
     </button>
