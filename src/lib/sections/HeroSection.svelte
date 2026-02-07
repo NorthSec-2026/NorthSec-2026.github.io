@@ -1,6 +1,7 @@
 <script lang="ts">
   import { Terminal, ArrowRight, Shield, Globe, Activity } from "lucide-svelte";
   import Countdown from "$lib/components/Countdown.svelte";
+  import { base } from "$app/paths";
 </script>
 
 <!-- ADVANCED HERO SECTION -->
@@ -96,7 +97,8 @@
           <!-- Base Image -->
           <div
             class="absolute inset-0 w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-            style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&q=80')"
+            style="background-image: url('{base +
+              '/images/01-hero-image.jpeg'}')"
           >
             <div
               class="absolute inset-0 bg-ocean-dark/40 mix-blend-multiply"
@@ -106,13 +108,15 @@
           <!-- Glitch Layer (Cyan Shift) - Visible on Hover -->
           <div
             class="absolute inset-0 w-full h-full bg-cover bg-center opacity-0 group-hover:opacity-40 transition-opacity duration-200 mix-blend-screen"
-            style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&q=80'); transform: translateX(-5px)"
+            style="background-image: url('{base +
+              '/images/01-hero-image.jpeg'}); transform: translateX(-5px)"
           ></div>
 
           <!-- Glitch Layer (Red Shift) - Visible on Hover -->
           <div
             class="absolute inset-0 w-full h-full bg-cover bg-center opacity-0 group-hover:opacity-40 transition-opacity duration-200 mix-blend-screen"
-            style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&q=80'); transform: translateX(5px)"
+            style="background-image: url('{base +
+              '/images/01-hero-image.jpeg'}); transform: translateX(5px)"
           ></div>
 
           <!-- Scanning Line Animation -->
